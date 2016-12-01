@@ -1,9 +1,10 @@
 {
-  "name": "node-sandbox",
+  "name": "hapi-sandbox",
   "version": "1.0.0",
   "description": "Barebones starting point for node",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon .",
     "test": "_mocha test"
   },
   "repository": {
@@ -25,6 +26,18 @@
     "code": "^3.0.2",
     "eslint": "^3.3.1",
     "eslint-config-pundits": "^1.0.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "boom": "^4.2.0",
+    "good": "^7.0.2",
+    "good-console": "^6.3.1",
+    "hapi": "^16.0.0",
+    "hapi-async-handler": "^1.0.3",
+    "hapi-router": "^3.5.0",
+    "joi": "^10.0.1",
+    "poop": "^2.0.2"
   }
 }
